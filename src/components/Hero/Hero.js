@@ -11,6 +11,21 @@ export default class Hero extends Component {
 
     render() {
         return(
+            <div className='header-container'>
+            <div className='navbar'>
+            <div className='navbar--container'>
+            <div className='navbar--left'>
+                <img className='navbar--logo' src={ Logo } alt='Millard Le Logo'/>
+            </div>
+            <div className='navbar--right'>
+                <ul className='navbar--list'>
+                    <li className='navbar--item'>About</li>
+                    <li className='navbar--item'>Portfolio</li>
+                    <li className='navbar--item'>Contact</li>
+                </ul>
+            </div>
+            </div>
+        </div>
             <div className='hero-container'>
             <div className='hero'>
                 <div className='hero--text-container'>
@@ -38,6 +53,7 @@ export default class Hero extends Component {
                     </div> */}
                 </div>
                 <div><img className='hero--image' src={ Logo } alt='Hero Logo' /></div>
+            </div>
             </div>
             </div>
         )

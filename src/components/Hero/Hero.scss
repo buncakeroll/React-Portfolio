@@ -3,6 +3,11 @@
 @import '../../sass/Mixins.scss';
 @import '../../sass/components/Buttons.scss';
 
+.header-container {
+    width: 100%;
+    height: 100vh;
+}
+
 
 .hero-container {
     overflow: hidden;
@@ -82,3 +87,59 @@
     }
 }
 
+/*
+----
+*/
+
+@import '../../sass/Colors.scss';
+@import '../../sass/Fonts.scss';
+@import '../../sass/Mixins.scss';
+
+.navbar {
+    margin-top: 2rem;
+    overflow: hidden; 
+    width: 100%;
+    // box-shadow: 0px 1px 3px 0px rgba(163,163,163,1);
+    
+    &--container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        margin: 0 auto;
+        max-width: 1200px;  
+    }
+    &--left {
+        padding-left: 0.5rem;
+    }
+
+    &--right {
+        padding-right: 0.5rem;
+    }
+
+    &--list {
+        display: flex;
+        padding: 0;
+        font-size: 17px;
+        list-style: none;
+    }
+
+    &--item {
+        margin: 0 2rem;
+        font-family: 'montserrat-med';
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:last-child {
+            margin: 0 0 0 2rem;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $primary;
+        }
+
+    }
+    &--logo {
+        width: 50px;
+        cursor: pointer;
+    }
+}
