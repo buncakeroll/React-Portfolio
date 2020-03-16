@@ -52,7 +52,7 @@ export default class LandingPage extends Component {
                         <img src={iconGithub} className='hero--icon' />
                     </div> */}
                 </div>
-                <div><img className='hero--image' src={ Logo } alt='Hero Logo' /></div>
+                <div className="hero--image-container"><img className='hero--image' src={ Logo } alt='Hero Logo' /></div>
             </div>
             </div>
             </div>
