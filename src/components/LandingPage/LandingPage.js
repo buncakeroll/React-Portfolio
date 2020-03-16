@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import TextLoop from 'react-text-loop';
-import './Hero.scss';
+import './LandingPage.scss';
 
 import Logo from '../../assets/images/logo/logo.png';
 import iconLinkedin from '../../assets/icons/linkedin.svg';
 import iconGithub from '../../assets/icons/github.svg';
 
 
-export default class Hero extends Component {
+export default class LandingPage extends Component {
 
     render() {
         return(

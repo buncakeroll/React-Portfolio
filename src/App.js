@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 
 // import NavBar from './components/NavBar/NavBar';
-import Hero from './components/Hero/Hero';
+import LandingPage from './components/LandingPage/LandingPage';
 import About from './components/About/About';
 
 export default class App extends Component {
@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Hero />
+        <LandingPage />
         <About />
       </div>
     )
