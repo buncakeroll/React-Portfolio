@@ -1,0 +1,24 @@
+@import './sass/Colors.scss';
+
+@font-face {
+  font-family: 'montserrat-reg';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'montserrat-reg';
+  background-color: $black;
+}
+

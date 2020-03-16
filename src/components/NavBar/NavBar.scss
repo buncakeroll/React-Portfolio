@@ -1,0 +1,41 @@
+@import '../../sass/Colors.scss';
+@import '../../sass/Fonts.scss';
+@import '../../sass/Mixins.scss';
+
+.navbar {
+    background-color: $gray;    
+    &--container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        margin: 0 auto;
+        max-width: 1200px;
+        background-color: $gray;    
+    }
+    &--left {
+        margin-left: 4rem;
+    }
+
+    &--right {
+        margin-right: 4rem;
+    }
+
+    &--list {
+        display: flex;
+        padding: 0;
+        font-size: 17px;
+        list-style: none;
+    }
+
+    &--item {
+        margin: 0 2rem;
+        color: $white;
+
+        &:last-child {
+            margin: 0 0 0 2rem;
+        }
+    }
+    &--logo {
+        width: 50px;
+    }
+}
