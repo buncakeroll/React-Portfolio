@@ -9,28 +9,29 @@
     font-family: 'montserrat-bold';
     text-transform: uppercase;
     transition: ease-in all 0.25s;
+    cursor: pointer;
 
     &-default {
         color: $white;
         background-color: $primary;
-        border: 1px solid $primary;
+        border: 2px solid $primary;
 
         &:hover {
             color: $primary;
             background-color: transparent;
-            border: 1px solid $primary;       
+            border: 2px solid $primary;       
         }
     }
 
     &-secondary {
         color: $primary;
         background-color: transparent;
-        border: 1px solid $primary;
+        border: 2px solid $primary;
 
         &:hover {
             color: $white;
             background-color: $primary;
-            border: 1px solid $primary;       
+            border: 2px solid $primary;       
         }
     }
 }

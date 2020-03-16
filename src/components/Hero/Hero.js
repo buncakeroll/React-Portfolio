@@ -3,6 +3,9 @@ import TextLoop from 'react-text-loop';
 import './Hero.scss';
 
 import Logo from '../../assets/images/logo/logo.png';
+import iconLinkedin from '../../assets/icons/linkedin.svg';
+import iconGithub from '../../assets/icons/github.svg';
+
 
 export default class Hero extends Component {
 
@@ -13,15 +16,15 @@ export default class Hero extends Component {
                 <div className='hero--text-container'>
                     <h2 className='hero--header-2'>Hello, I'm</h2>
                     <h1 className='hero--header-1'>Millard Le</h1>
-                    <p className='hero--header-3'>&lt;Web Developer using &nbsp;
+                    <p className='hero--header-3'>&lt; Front End Developer using &nbsp;
 
                     <TextLoop
                     interval={2000}
                     >
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>React</span>
+                    <span className='hero--span'>HTML</span>
+                    <span className='hero--span'>CSS</span>
+                    <span className='hero--span'>JavaScript</span>
+                    <span className='hero--span'>React</span>
                     </TextLoop>
 
                     &nbsp; /&gt;</p>
@@ -29,10 +32,13 @@ export default class Hero extends Component {
                         <button className='btn btn-default hero--btn'>Portfolio</button>
                         <button className='btn btn-secondary hero--btn'>Contact</button>
                     </div>
+                    {/* <div className='hero--icon-container'>
+                        <img src={iconLinkedin} className='hero--icon' />
+                        <img src={iconGithub} className='hero--icon' />
+                    </div> */}
                 </div>
-                
+                <div><img className='hero--image' src={ Logo } alt='Hero Logo' /></div>
             </div>
-            <img className='hero--image' src={ Logo } alt='Hero Logo' />
             </div>
         )
     }

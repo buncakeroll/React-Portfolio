@@ -1,0 +1,20 @@
+@import '../../sass/Colors.scss';
+@import '../../sass/Fonts.scss';
+@import '../../sass/Mixins.scss';
+@import '../../sass/components/Buttons.scss';
+
+.about {
+    margin: 8rem auto 0;
+    max-width: 1200px;
+    height: 600px;
+    border: 1px solid $primary;
+}
+
+h2 {
+    color: $primary;
+    font-family: 'montserrat-bold';
+}
+
+p {
+    color: $white;
+}
