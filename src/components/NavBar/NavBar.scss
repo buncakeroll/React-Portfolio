@@ -3,7 +3,10 @@
 @import '../../sass/Mixins.scss';
 
 .navbar {
-    background-color: $gray;    
+    background-color: $gray;   
+    overflow: hidden; 
+    width: 100%;
+    
     &--container {
         display: flex;
         justify-content: space-between;
@@ -13,11 +16,11 @@
         background-color: $gray;    
     }
     &--left {
-        margin-left: 4rem;
+        padding-left: 0.5rem;
     }
 
     &--right {
-        margin-right: 4rem;
+        padding-right: 0.5rem;
     }
 
     &--list {

@@ -1,0 +1,36 @@
+@import '../Colors.scss';
+@import '../Mixins.scss';
+@import '../Fonts.scss';
+
+.btn {
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+    font-family: 'montserrat-bold';
+    text-transform: uppercase;
+    transition: ease-in all 0.25s;
+
+    &-default {
+        color: $white;
+        background-color: $primary;
+        border: 1px solid $primary;
+
+        &:hover {
+            color: $primary;
+            background-color: transparent;
+            border: 1px solid $primary;       
+        }
+    }
+
+    &-secondary {
+        color: $primary;
+        background-color: transparent;
+        border: 1px solid $primary;
+
+        &:hover {
+            color: $white;
+            background-color: $primary;
+            border: 1px solid $primary;       
+        }
+    }
+}
