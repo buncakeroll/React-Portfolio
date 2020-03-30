@@ -26,6 +26,14 @@ export default class About extends Component {
                         <p>Web development is my passion and I started off as a self-taught
                         </p>
                         <h2>Knowledge Of.</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Version Control</li>
+                            <li>Figma</li>
+                        </ul>
                     </div>
                 </div>
             </div>
