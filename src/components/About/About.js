@@ -16,14 +16,25 @@ export default class About extends Component {
 
                         </div>
                         <div className='about--text'>
-                            <button className='btn btn-secondary'>Github</button>
-                            <button className='btn btn-secondary'>Linkedin</button>
-                            <button className='btn btn-secondary'>Resume</button>
+                            <div className='about--buttons-top'>
+                                <button className='btn btn-secondary'>Github</button>
+                                <button className='btn btn-secondary'>Linkedin</button>
+                            </div>
+                            <div className='about--buttons-bottom'>
+                                <button className='btn-2 btn-secondary'>Resume</button>
+                            </div>
                         </div>
                     </div>
                     <div className='about--right'>
                         <h2>Nice to meet you.</h2>
-                        <p>Web development is my passion and I started off as a self-taught
+                        <p>Recently  graduated from BrainStation’s full-time Web Development 
+                        Diploma program in Toronto wanting to transition careers to become a 
+                        junior web developer. A passion for making beautiful websites with the 
+                        ability in writing clean and efficient code to help clients bring their 
+                        ideas to life. With 4+ years of experience in a customer facing role 
+                        that is strongly motivated to maintain customer satisfaction and contribute 
+                        to company success by providing exceptional customer service that ensures 
+                        client retention and positive feedback.
                         </p>
                         <h2>Knowledge Of.</h2>
                         <ul>

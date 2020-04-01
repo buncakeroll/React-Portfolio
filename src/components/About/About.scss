@@ -7,7 +7,20 @@
     margin: 8rem auto 0;
     max-width: 1200px;
     height: 600px;
-    border: 1px solid $primary;
+
+    &--container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    &--left {
+        margin: 0 auto;
+    }
+
+    &--right {
+        margin: 0 auto;
+    }
 }
 
 h2 {
@@ -16,5 +29,5 @@ h2 {
 }
 
 p {
-    color: $white;
+    color: $black;
 }
