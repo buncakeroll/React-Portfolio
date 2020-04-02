@@ -16,6 +16,8 @@ export default class About extends Component {
 
                         </div>
                         <div className='about--text'>
+                        <h2>Millard Le</h2>
+                        </div>
                             <div className='about--buttons-top'>
                                 <button className='btn btn-secondary'>Github</button>
                                 <button className='btn btn-secondary'>Linkedin</button>
@@ -23,7 +25,6 @@ export default class About extends Component {
                             <div className='about--buttons-bottom'>
                                 <button className='btn-2 btn-secondary'>Resume</button>
                             </div>
-                        </div>
                     </div>
                     <div className='about--right'>
                         <h2>Nice to meet you.</h2>
