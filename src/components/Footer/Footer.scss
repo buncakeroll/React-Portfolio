@@ -1,0 +1,25 @@
+@import '../../sass/Colors.scss';
+@import '../../sass/Fonts.scss';
+@import '../../sass/Mixins.scss';
+@import '../../sass/components/Buttons.scss';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: $primary;
+
+    &--list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: $white;
+    }
+
+    &--item {
+
+    }
+}
