@@ -4,6 +4,7 @@ import './App.scss';
 // import NavBar from './components/NavBar/NavBar';
 import LandingPage from './components/LandingPage/LandingPage';
 import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio'
 import Footer from './components/Footer/Footer';
 
 export default class App extends Component {
@@ -13,6 +14,7 @@ export default class App extends Component {
       <div>
         <LandingPage />
         <About />
+        <Portfolio />
         <Footer />
       </div>
     )
