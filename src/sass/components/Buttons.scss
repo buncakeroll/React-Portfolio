@@ -13,24 +13,24 @@
 
     &-default {
         color: $white;
-        background-color: $primary;
+        background: $primary;
         border: 2px solid $primary;
 
         &:hover {
             color: $primary;
-            background-color: transparent;
+            background: transparent;
             border: 2px solid $primary;       
         }
     }
 
     &-secondary {
         color: $primary;
-        background-color: transparent;
+        background: transparent;
         border: 2px solid $primary;
 
         &:hover {
             color: $white;
-            background-color: $primary;
+            background: $primary;
             border: 2px solid $primary;       
         }
     }
@@ -47,24 +47,24 @@
 
     &-default {
         color: $white;
-        background-color: $primary;
+        background: $primary;
         border: 2px solid $primary;
 
         &:hover {
             color: $primary;
-            background-color: transparent;
+            background: transparent;
             border: 2px solid $primary;       
         }
     }
 
     &-secondary {
         color: $primary;
-        background-color: transparent;
+        background: transparent;
         border: 2px solid $primary;
 
         &:hover {
             color: $white;
-            background-color: $primary;
+            background: $primary;
             border: 2px solid $primary;       
         }
     }
